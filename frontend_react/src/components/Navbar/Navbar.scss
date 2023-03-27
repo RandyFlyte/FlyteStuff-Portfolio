@@ -20,14 +20,14 @@
     align-items: center;
 
     img {
-        width: 90px;
-        height: 20px;
-
-        @media screen and (min-width: 2000px) {
-            width: 180px;
-            height: 40px;
-        }
+        width: 28px;
+        height: 26px;
     }
+}
+
+.app__navbar-name {
+    padding-left: 10px;
+    color: rgba($color: #2b00ba, $alpha: 1.0);
 }
 
 .app__navbar-links {
